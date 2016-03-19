@@ -37,18 +37,15 @@ The main components will include:
 *A feature-light fork of QEMU, which will emulate the processor(s) on 
 non-x86 host machines and provide virtualized memory for the runtime 
 environment. QEMU is built in C. More about QEMU at 
-https://en.wikipedia.org/wiki/QEMU 
-*A fork of the ReactOS kernel, which will do kernely stuff like managing 
-memory and scheduling threads in the runtime environment. For 
-performance, the kernel will run natively alongside QEMU (rather than 
-being emulated *by* QEMU). This will likely require some serious 
-modification to allow it to run in the user space. The ReactOS kernel is 
-built in C. More about ReactOS at https://en.wikipedia.org/wiki/ReactOS 
-*A fork of Wine, though we will probably only include front-end 
-components. This will expose Windows API functions and services to guest 
-applications. Wine is built in C. More about Wine at 
-https://en.wikipedia.org/wiki/Wine_(software)
-*Custom Wine back-end, which will convert Windows API calls 
+https://en.wikipedia.org/wiki/QEMU
+*I had previously wanted to use a modified fork of ReacOS Kernel to
+emulate kernel functionality. It would have to be modified heavily
+in order to run in user space (i.e., not require that the user boot
+their system into Peregrine). Turns out, the Wine Server performs a
+very similar function to what I want and is already much closer than
+the ReactOS kernel to this end. As I understand, ReactOS borrows a
+lot of code from Wine (though not so much the other way), so these are
+already connected.
 *DOSBox. Probably the whole thing, it's incredibly portable. Legacy 
 Windows emulation can surely be benefited from DOS emulation close at 
 hand. Plus, it makes a decent processor emulator in a pinch. DOSBox is 

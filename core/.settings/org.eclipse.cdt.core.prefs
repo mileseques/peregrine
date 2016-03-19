@@ -1,7 +1,4 @@
 eclipse.preferences.version=1
-environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.706120121/PATH/delimiter=;
-environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.706120121/PATH/operation=replace
-environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.706120121/PATH/value=${MINGW_HOME}\\bin;${MSYS_HOME}\\bin;C\:/Program Files/Java/jdk1.7.0_79/jre/bin/server;C\:/Program Files/Java/jdk1.7.0_79/jre/bin;C\:/Program Files/Java/jdk1.7.0_79/jre/lib/amd64;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\windows\\system32;C\:\\windows;C\:\\windows\\System32\\Wbem;C\:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C\:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C\:\\Program Files (x86)\\Common Files\\Adobe\\AGL;C\:\\windows\\system32\\config\\systemprofile\\.dnx\\bin;C\:\\Program Files\\Microsoft DNX\\Dnvm\\;C\:\\Program Files (x86)\\Windows Live\\Shared;C\:\\Program Files (x86)\\Skype\\Phone\\;C\:\\Program Files (x86)\\Smart Projects\\IsoBuster;C\:\\Program Files (x86)\\Calibre2\\;C\:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C\:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C\:\\Users\\Master\\.dnx\\bin;C\:\\MinGW\\msys\\1.0\\bin;C\:\\MinGW\\bin;C\:\\windows\\System32
 environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.706120121/append=true
 environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.706120121/appendContributed=true
 org.eclipse.cdt.core.formatter.alignment_for_arguments_in_method_invocation=18

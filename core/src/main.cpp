@@ -7,7 +7,7 @@ int main( int argc, const char* argv[] )
   setvbuf(stderr, NULL, _IONBF, 0);
 
   puts("Hello World!");
-  getchar();
 
+  getchar();
   return 0;
 }
